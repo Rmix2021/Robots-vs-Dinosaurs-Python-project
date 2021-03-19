@@ -1,22 +1,23 @@
-import Weapons
+from Weapon import Weapon
 class Robot:
-    def __init__(self, name):
+    def __init__(self, name) :
         self.name = name
-        self.hit_points = hit_points
-        self.power = power
-        self.weapons = Weapons.power(1000)
+        self.hit_points = 20000
+        self.power = 1000
+        self.robot_weapon = Weapon("Laser Blaster")
 
-    def set_name(self):
-        self.name = input("Name your Robot.")
-        print("This Robot is ", self.name)
-
-    def weapons(self,"laser_cannon",power):
-        self.weapons.power = 800
+    #attack
+    def roboAttack(self, dino):
+        dino.hitpoints = dino.hitpoints - self.power
 
 
-    def power(self, power()):
-        self.power = self.power(1000) += self.weapons(800)
-    
+
+
+
+
+
+
+
 
 
 

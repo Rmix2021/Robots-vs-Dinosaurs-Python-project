@@ -1,7 +1,13 @@
-import Robot
+from Robot import Robot
 
 class RobotBuild:
-    def __init__(self,):
+    def __init__(self):
+        self.robots1 = Robot("R2D2")
+
+
+
+
+
 
 
 
