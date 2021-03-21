@@ -1,5 +1,5 @@
-class Attack:
+class AttackType:
 
-    def __init__(self, attack_name, power):
+    def __init__(self, attack_name, attack):
         self.attack_name = attack_name
-        self.power = power
+        self.attack = attack
